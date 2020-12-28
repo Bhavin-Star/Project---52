@@ -1,0 +1,68 @@
+h1{color: cyan;
+   text-align: center;
+   }
+
+h3{
+    font-size: 20px;
+    font-family: cursive;
+    color: chartreuse;
+}
+
+.item img{
+    
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+/* Parent division */
+.item{
+    
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:rgb(21, 207, 231);
+    font-size: 20px;
+    font-weight: 20;
+    color: rgb(0, 0, 0);
+    
+}
+
+.grid{
+    opacity: 1;
+}
+
+.grid:hover {
+    transform: scale(1.25);
+    background-color: greenyellow;
+}
+
+/* Child division */
+.grid{
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    
+    width: 310px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 25px;
+}
+
+.grid:hover img{
+    opacity: 0.5;
+    background-color: lightsteelblue
+}
+
+a{
+    color: red;
+}
+
+a:visited{
+    color: white;
+}
+
+body{
+    margin: 25px;
+    padding: 25px;
+    background-color: rgb(128,128,128);
+}
